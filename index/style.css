@@ -1,4 +1,4 @@
-html, body, ul, li {
+html, body {
 	margin : 0;
 	padding : 0;
 	border : 0;
@@ -9,11 +9,10 @@ html, body, ul, li {
 	vertical-align: baseline;
 }
 body {
-	font-family: oswald;
+	font-family: 'Oswald', sans-serif;
 }
 #templogo{
-    position: absolute;
-    top: 0px;
+    float:left;
     font-family: 'Roboto', sans-serif;
     font-size : 24px;
     color : #FFC0C0;
@@ -22,9 +21,9 @@ body {
     width: 100px;
 }
 .topbox {
-    position: absolute;
-    top: 0px;
-    width: 1000px;
+    padding: 0px 0px 0px 0px;
+    position: fixed;
+    margin: inherit;
     background : #FFAEAE;
     background : rgba(255, 174, 174, 1);
     min-height: 500px;
