@@ -12,11 +12,21 @@ body {
 	font-family: oswald;
 }
 #templogo{
-    width:px;
-    float : left;
+    position: absolute;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size : 24px;
+    color : #FFC0C0;
+    color : rgb(255, 192, 192);
+    position: relative;
+    width: 100px;
 }
 .topbox {
-    background-color : pink ;
+    position: absolute;
+    top: 0px;
+    width: 1000px;
+    background : #FFAEAE;
+    background : rgba(255, 174, 174, 1);
     min-height: 500px;
 }
 #boxtext{
@@ -28,14 +38,15 @@ body {
 }
 #nyanshadow{
     position: absolute;
-    top: -150px;
-    left: 300px;
     width : 600px;
     height: auto;
 }
 .mainmenu {
+    font-family: 'Oswald', sans-serif;
 	width : 300px;
-    float:right;
+    position: absolute;
+    top : 0px;
+    right : 0px;
 	overflow : auto;
 }
 .mainmenu li {
