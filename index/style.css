@@ -11,22 +11,26 @@ html, body {
 body {
 	font-family: 'Oswald', sans-serif;
 }
-#templogo{
-    float:left;
-    font-family: 'Roboto', sans-serif;
-    font-size : 24px;
-    color : #FFC0C0;
-    color : rgb(255, 192, 192);
-    position: relative;
-    width: 100px;
-}
 .topbox {
     padding: 0px 0px 0px 0px;
     position: fixed;
+    width: 100%;
     margin: inherit;
     background : #FFAEAE;
     background : rgba(255, 174, 174, 1);
     min-height: 500px;
+}
+.mainmenu {
+    font-family: 'Oswald', sans-serif;
+	width : 300px;
+    position: absolute;
+    top : 0px;
+    right : 0px;
+	overflow : auto;
+}
+.mainmenu li {
+	display: inline;
+    margin-right : 10px;
 }
 #boxtext{
     position: relative;
@@ -42,15 +46,4 @@ body {
     width : 600px;
     height: auto;
 }
-.mainmenu {
-    font-family: 'Oswald', sans-serif;
-	width : 300px;
-    position: absolute;
-    top : 0px;
-    right : 0px;
-	overflow : auto;
-}
-.mainmenu li {
-	display: inline;
-    margin-right : 10px;
-}
+
