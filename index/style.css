@@ -38,11 +38,8 @@ body {
 }
 #nyanshadow{
     position: absolute;
-<<<<<<< HEAD
-=======
     top: 150px;
     left: 300px;
->>>>>>> origin/master
     width : 600px;
     height: auto;
 }
