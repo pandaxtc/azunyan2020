@@ -17,11 +17,6 @@ body {
     margin-top: 0px;
     width:100%%;
 }
-.menu {
-    position: relative;
-    width: 68%;
-    z-index: 999;
-}
 .topbox {
     position: fixed;
     right: auto;
@@ -40,11 +35,6 @@ body {
     background: #fff;
     box-shadow: 0px 0px 5px 0px #777777;
     z-index: 998
-}
-#logo {
-    position: relative;
-    top: 2px;
-    width: 200px;
 }
 #mainmenu {
     position: relative;
@@ -75,6 +65,11 @@ body {
     text-decoration: none;
     color: pink;
 }
+#logo {
+    position: relative;
+    top: 2px;
+    width: 200px;
+}
 #mainmenu a:visited {
     text-decoration: none;
     color: pink;
@@ -94,7 +89,7 @@ body {
     position: relative;
     top: auto;
     bottom: 0px;
-    left: 600px;
+    left: 400px;
     margin-right: 10%;
     height: 10%;
 }
