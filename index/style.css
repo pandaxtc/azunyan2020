@@ -9,7 +9,6 @@ html, body {
 }
 body {
 	font-family: 'Oswald', sans-serif;
-    background-color: #FFAEAE;
     left: auto;
     right: auto;
     margin-left: 10%;
@@ -85,16 +84,24 @@ body {
     top : 200px;
     left: 300px;
 }
+#banner {
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #FFAEAE;
+}
 #nyan{
-    position: relative;
+    position: absolute;
     top: auto;
+    right: 0px;
     bottom: 0px;
-    left: 400px;
     margin-right: 10%;
-    height: 10%;
+    height: 860px;
 }
 t {
-    position: absolute;
+    position: relative;
     top: 1000px;
     padding: 20px 20px 20px 20px;
     font-size: 40px;
