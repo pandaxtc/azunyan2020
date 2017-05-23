@@ -1,5 +1,5 @@
 html, body {
-	margin : 0;
+	margin: 0 auto auto auto;
 	padding : 0;
 	border : 0;
 	outline : 0;
@@ -7,40 +7,56 @@ html, body {
 	background: transparent;
 	padding : 0px;
 	vertical-align: baseline;
+
 }
 body {
 	font-family: 'Oswald', sans-serif;
+    background-color: #FFAEAE;
+    width: 70%;
 }
-
+.menu {
+    position: fixed;
+    width: 68%;
+    height: 70px;
+    top: 0px;
+    z-index: 999;
+}
 .topbox {
-    padding: 0px 0px 0px 0px;
     position: fixed;
-    width: 100%;
-    margin: inherit;
-    background : #FFAEAE;
-    background : rgba(255, 174, 174, 1);
-    height: 800px;
-}
-.movebox {
-    position: fixed;
+    background: #fff;
+    left: 0px;
     width: 100%;
     height: 70px;
+    top: 0px;
+    box-shadow: 0px 0px 5px #777777;
+    z-index: 998;
 }
 #logo {
-    float: left;
+    position: relative;
+    top: 2px;
     width: 200px;
 }
 #mainmenu {
+    position: relative;
     font-family: 'Oswald', sans-serif;
-	width : 500px;
+    width: 41%;
+    height: 70px;
     float: right;
-    top : 0px;
-    right : 0px;
-	overflow : auto;
+    overflow : hidden;
+    background: #fff;
 }
 #mainmenu li {
+    text-align: center;
+    vertical-align: middle;
 	display: inline;
-    margin-right : 10%;
+    margin-left : 10%;
+}
+topbutton {
+    position: relative;
+    float: right;
+    height: 70px;
+    top: 5px;
+    background: #fff;
 }
 #boxtext{
     position: relative;
@@ -50,8 +66,19 @@ body {
     left: 300px;
 }
 #nyan{
-    position:absolute;
-    top: 100px;
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    left: 600px;
     margin-right: 10%;
+    height: 80%;
+}
+t {
+    position: absolute;
+    top: 1000px;
+    padding: 20px 20px 20px 20px;
+    font-size: 40px;
+    min-width: 100px;
+
 }
 
