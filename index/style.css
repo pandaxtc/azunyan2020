@@ -1,8 +1,8 @@
 html, body {
-	margin: 0 auto auto auto;
-	padding : 0;
-	border : 0;
-	outline : 0;
+	margin: 0px;
+	padding : 0px;
+	border : 0px;
+	outline : 0px;
 	font-size : 100%;
 	background: transparent;
 	padding : 0px;
@@ -15,10 +15,8 @@ body {
     width: 70%;
 }
 .menu {
-    position: fixed;
+    position: relative;
     width: 68%;
-    height: 70px;
-    top: 0px;
     z-index: 999;
 }
 .topbox {
@@ -37,10 +35,8 @@ body {
     width: 200px;
 }
 #mainmenu {
-    position: relative;
     font-family: 'Oswald', sans-serif;
     width: 41%;
-    height: 70px;
     float: right;
     overflow : hidden;
     background: #fff;
