@@ -47,6 +47,10 @@ body {
 	display: inline;
     margin-left : 10%;
 }
+a:link {
+    text-decoration: none;
+    color: pink;
+}
 topbutton {
     position: relative;
     float: right;
