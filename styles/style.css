@@ -1,0 +1,161 @@
+/*FFAEAE*/
+html, body {
+	margin: 0px;
+	padding : 0px;
+	border : 0px;
+	outline : 0px;
+	font-size : 100%;
+	background: transparent;
+	padding : 0px;
+}
+body {
+	font-family: 'Oswald', sans-serif;
+    left: auto;
+    right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0px;
+    width:100%%;
+    color: white;
+}
+.topbox {
+    position: fixed;
+    right: auto;
+    width: 80%;
+    height: 70px;
+    top: 0px;
+    z-index: 999;
+}
+.topbg {
+    position: fixed;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #777777;
+    z-index: 998
+}
+#logo {
+    position: relative;
+    top: 5px;
+    width: 200px;
+}
+#mainmenu {
+    position: relative;
+    padding: none;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Oswald', sans-serif;
+    height: 70px;
+    float: right;
+    overflow : hidden;
+    top: 0px;
+    background: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+#mainmenu li {
+    position: relative;
+    display: block;
+    float: left;
+    height: 70px;
+    width: 100px;
+}
+#mainmenu a {
+    position: relative;
+    line-height: 70px;
+}
+#mainmenu a:link {
+    text-decoration: none;
+    color: #FFAEAE;
+}
+#mainmenu a:visited {
+    text-decoration: none;
+    color: #FFAEAE;
+}
+#mainmenu div:hover {
+    -webkit-transition: background-color 0.2s;
+    background-color: lightcoral;
+}
+#banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+#banner .bannertext {
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    top: 340px;
+    left: 12%;
+}
+#banner h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    margin: 0px 0px 10px 0px;
+    top: 0%;
+    font-size: 40px;
+}
+#banner p {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+    top: 0%;
+    font-size: 20px;
+}
+#nyanshadow{
+    position: absolute;
+    top: auto;
+    right: 11%;
+    bottom: 10px;
+    height: 80%;
+}
+#nyan{
+    position: absolute;
+    top: auto;
+    right: 12%;
+    bottom: 0px;
+    height: 80%;
+}
+#bannerbg {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: #FFAEAE;
+    box-shadow: 0px 0px 5px 0px #777777;
+}
+#leftbox, #rightbox {
+    display: inline-block
+    top: 0;
+    height: 800px;
+    width : 65%;
+}
+#leftbox {
+    background-color: deepskyblue;
+    display: inline-block;
+    position: relative;
+    left: -15%;
+}
+#rightbox {
+    background-color: cadetblue;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    width: 50%
+}
+t {
+    color: black;
+    position: relative;
+    top: 100px;
+    padding: 20px 20px 20px 20px;
+    font-size: 40px;
+    min-width: 100px;
+
+}
+
