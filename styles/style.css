@@ -90,7 +90,7 @@ body {
 
 #mainmenu div:hover {
     -webkit-transition: background-color 0.2s;
-    background-color: lightcoral;
+    background-color:  #FFC0C0;
 }
 
 #banner {
@@ -153,8 +153,8 @@ body {
 #leftbox {
     background-color: deepskyblue;
     display: inline-block;
-    position: relative;
-    left: -15%;
+    position: absolute;
+    left: -20px;
 }
 
 #rightbox {
@@ -163,6 +163,12 @@ body {
     position: absolute;
     left: 50%;
     width: 50%
+}
+
+#boxspacer {
+    background-color: aqua;
+    height: 10000px;
+    z-index: 999999999;
 }
 
 t {
