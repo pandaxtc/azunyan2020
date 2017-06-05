@@ -97,11 +97,12 @@ body {
 #mainmenu #donate {
     width: 70px;
     margin-left: 15px;
-    top: 25%;
+    top: 15%;
     background-color: #FFAEAE;
+    padding: 6px 10px 6px 10px;
 }
 
-#mainmenu #donate a {
+#mainmenu #donate a    {
     color: white;
     line-height: 30px;
 }
@@ -144,9 +145,9 @@ body {
     background: white;
     text-decoration: none;
     top: 20px;
-    margin: 0px 20px 10px 0px;
+    margin: 0px 50px 10px 0px;
     color: #FFAEAE;
-    padding: 7px 14px 7px 14px;
+    padding: 7px 20px 7px 20px;
 }
 
 #nyan {
