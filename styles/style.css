@@ -1,0 +1,149 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    font-size: 100%;
+    background: transparent;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    left: auto;
+    right: auto;
+    margin: auto;
+    !margin-left: 10%;
+    !margin-right: 10%;
+    !margin-top: 0px;
+    max-width: 1340px;
+    color: white;
+}
+
+.topbox {
+    position: fixed;
+    right: auto;
+    max-width: 1340px;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    z-index: 999;
+}
+
+.topbg {
+    position: fixed;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #777777;
+    z-index: 998
+}
+
+#logo {
+    position: relative;
+    margin-top: 0px;
+    top: 5px;
+    height: 50px;
+}
+
+#mainmenu {
+    position: relative;
+    padding: none;
+    display: inline-block;
+    top: 0px;
+    height: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 7px;
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+}
+
+#mainmenu li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+#mainmenu a {
+    position: relative;
+    line-height: 60px;
+}
+
+#mainmenu a:link {
+    text-decoration: none;
+    color: #FFAEAE;
+}
+
+#mainmenu a:visited {
+    text-decoration: none;
+    color: #FFAEAE;
+}
+
+#mainmenu div:hover {
+    -webkit-transition: background-color 0.2s;
+    background-color:  #FFC0C0;
+}
+
+#mainmenu #donate {
+    width: 70px;
+    margin-left: 15px;
+    top: 15%;
+    background-color: #FFAEAE;
+    padding: 6px 10px 6px 10px;
+}
+
+#mainmenu #donate a    {
+    color: white;
+    line-height: 30px;
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+#banner .bannertext {
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    top: 320px;
+    left: 12%;
+}
+
+#banner h1 {
+    font-family: 'Roboto Slab';
+    margin: 0px 0px 10px 0px;
+    top: 0%;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#banner p {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#banner .bannerbutton {
+    position: relative;
+    background: white;
+    text-decoration: none;
+    top: 20px;
+    margin: 0px 50px 10px 0px;
+    color: #FFAEAE;
+    padding: 7px 20px 7px 20px;
+}
