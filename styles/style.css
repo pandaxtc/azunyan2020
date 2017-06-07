@@ -94,13 +94,14 @@ body {
 
 #mainmenu #donate {
     width: 70px;
-    margin-left: 15px;
-    top: 15%;
+    margin-left: 20px;
+    top: 10px;
+    height: 40px;
     background-color: #FFAEAE;
-    padding: 6px 10px 6px 10px;
 }
 
-#mainmenu #donate a    {
+#mainmenu #donate div {
     color: white;
-    line-height: 30px;
+    line-height: 40px;
+    height: 100%;
 }
