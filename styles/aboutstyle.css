@@ -1,12 +1,53 @@
+#about {
+    background-color: #FFC1C1;
+}
 #sunset {
     position: absolute;
+    width: 100%;
+    height: auto;
+    top: -450px;
+    left: 0px;
+    z-index: 2;
 
 }
-.firstbox {
+.firstbox, .secondbox {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.firstbg {
     position: absolute;
     background-color: aqua;
     top: 0px;
     left: 0px;
+    height: 200%;
+    width: 100%;
+}
+.firstbox {
+    position: relative;
+    top:60vh;
+}
+.secondbg {
+    position: absolute;
+    background-color: aquamarine;
     height: 100%;
     width: 100%;
+    top: 120%;
+    left: 0px;
+}
+.secondbox {
+    position: relative;
+    top: 110vh;
+}
+p {
+    width: 60%;
+}
+#pic1, #pic2 , #about1info, #about2info{
+    display: inline-block;
+}
+#pic1, #pic2 {
+    position: relative;
+    left: 5%;
+    height: 30vh;
+    width: 20vw;
+    background-color: grey;
 }
