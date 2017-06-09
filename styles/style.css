@@ -10,13 +10,10 @@ body {
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     left: auto;
     right: auto;
     margin: auto;
-    !margin-left: 10%;
-    !margin-right: 10%;
-    !margin-top: 0px;
     max-width: 1340px;
     color: white;
 }
@@ -63,6 +60,7 @@ body {
     overflow: hidden;
     background: #fff;
     text-align: center;
+    font-weight: 300;
 }
 
 #mainmenu li {
@@ -89,7 +87,7 @@ body {
 
 #mainmenu div:hover {
     -webkit-transition: background-color 0.2s;
-    background-color:  #FFC0C0;
+    background-color:  #F5F5F5;
 }
 
 #mainmenu #donate {

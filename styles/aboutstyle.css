@@ -1,31 +1,131 @@
-#about {
-    background-color: #FFC1C1;
-}
-#sunset {
+#bannerbg {
     position: absolute;
-    width: 100%;
-    height: auto;
-    top: -450px;
-    left: 0px;
-    z-index: 2;
-
-}
-.firstbox, .secondbox {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.firstbg {
-    position: absolute;
-    background-color: aqua;
+    display: block;
     top: 0px;
     left: 0px;
-    height: 200%;
+    width: 100VW;
+    height: 484px;
+    background: #FFAEAE;
+    box-shadow: 0px 0px 5px 0px #777777;
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    height: 484px;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+#banner .bannertext {
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    bottom: 100px;
+}
+
+#banner h1 {
+    font-family: 'Roboto Slab';
+    margin: 0px 0px 0px 0px;
+    top: 0%;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#banner h4 {
+    position: relative;
+    font-family: 'Lato';
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.menubar {
+    position: relative;
+    max-width: 1340px;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+}
+
+.menubg {
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 50%;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #777777;
+    z-index: 998;
+}
+
+#menu {
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1000;
+}
+
+#menu li {
+    position: relative;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 150px;
+}
+
+#menu a {
+    position: relative;
+    line-height: 60px;
+}
+
+#menu a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu div:hover {
+    -webkit-transition: background-color 0.2s;
+    background-color:  #F5F5F5;
+}
+
+.firstbg {
+    position: absolute;
+    background-color: skyblue;
+    top: 56%;
+    left: 0px;
+    height: 50%;
     width: 100%;
 }
+
 .firstbox {
     position: relative;
-    top:60vh;
+    width: 76%;
+    margin: 40px auto;
 }
+
+#about1info {
+    font-family: "Lato";
+    font-size: 18px;
+}
+
 .secondbg {
     position: absolute;
     background-color: aquamarine;
@@ -34,20 +134,32 @@
     top: 120%;
     left: 0px;
 }
+
 .secondbox {
     position: relative;
     top: 110vh;
 }
+
 p {
     width: 60%;
 }
-#pic1, #pic2 , #about1info, #about2info{
+
+#pic1,
+#pic2,
+#about1info,
+#about2info {
     display: inline-block;
 }
-#pic1, #pic2 {
-    position: relative;
-    left: 5%;
+
+#pic1,
+#pic2 {
+    position: absolute;
     height: 30vh;
     width: 20vw;
     background-color: grey;
 }
+
+#pic1 {
+    right: 0px;
+}
+
