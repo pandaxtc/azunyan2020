@@ -116,16 +116,16 @@ body {
 
 #footerbg {
     position: absolute;
-    top: 0px;
     right: 0px;
     width: 100vw;
-    height: 100vh;
+    height: 160px;
     background-color: #FFA6A0;
     z-index: -1;
 }
 
 #footer {
     position: relative;
+
 }
 
 #infoform {
@@ -137,6 +137,8 @@ body {
 .form {
     font-family: "Roboto Slab", sans-serif;
     display: inline;
+    position: relative;
+    top: 45px;
 }
 
 input {
@@ -156,4 +158,30 @@ input {
     text-transform: uppercase;
     letter-spacing: .12em;
 }
+button {
+    background: transparent; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.submit {
+    background-color: white;
+    color: black;
+    border: 2px solid #FC8BA9;
+}
+
+.submit:hover {
+    background-color: #FC8BA9;
+    color: white;
+}
+
 
