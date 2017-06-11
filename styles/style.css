@@ -113,3 +113,47 @@ body {
 .button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(0, 0, 0, 0.22);
 }
+
+#footerbg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFA6A0;
+    z-index: -1;
+}
+
+#footer {
+    position: relative;
+}
+
+#infoform {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.form {
+    font-family: "Roboto Slab", sans-serif;
+    display: inline;
+}
+
+input {
+    background: transparent;
+    border: 0;
+    display: inline;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0 10px 0 10px;
+    height: 40px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+}
+
