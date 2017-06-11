@@ -140,7 +140,16 @@ body {
     position: relative;
     top: 45px;
 }
-
+#support {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    width: 320px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+        font-size: 100%;
+}
 input {
     background: transparent;
     border: 0;
