@@ -1,6 +1,7 @@
 #about {
     background: #F5F5F5;
 }
+
 #bannerbg {
     position: absolute;
     display: block;
@@ -37,13 +38,18 @@
     font-weight: bold;
 }
 
-#banner h4 {
+h4 {
     position: relative;
     font-family: 'Lato';
     margin: 0px 0px 0px 0px;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 4px;
+}
+
+br {
+    display: block;
+    line-height: 0px;
 }
 
 .menubar {
@@ -110,40 +116,48 @@
     background-color: #F5F5F5;
 }
 
-.firstbg {
+#firstbg {
     position: absolute;
     background-color: skyblue;
     top: 544px;
     left: 0px;
-    height: 470px;
+    height: 800px;
     width: 100%;
 }
 
-hr {
+.spacer {
     position: relative;
-    display: block;
     width: 200px;
-    height: 3px;
+    display: block;
+    float: left;
+    height: 2px;
+    background-color: white;
+    color: white;
+    margin: 0px auto;
 }
 
-.firstbox {
+.infobox {
     position: relative;
-    width: 76%;
-    margin: 40px auto;
+    width: 90%;
+    padding-top: 10px;
+    margin: 0px auto;
+    margin-top: 80px;
+    text-align: justify;
 }
 
-#about1info {
-    font-family: "Lato";
-    font-size: 18px;
+.infobox h4 {
+    display: block;
+    font-size: 20px;
+    margin: 4px auto;
 }
 
-.secondbg {
+#secondbg {
     position: absolute;
     background-color: aquamarine;
-    height: 100%;
-    width: 100%;
-    top: 120%;
+    top: 1444px;
     left: 0px;
+    height: 800px;
+    width: 100%
 }
 
 .secondbox {
@@ -152,22 +166,22 @@ hr {
 }
 
 p {
-    width: 60%;
-}
-
-#pic1,
-#pic2,
-#about1info,
-#about2info {
     display: inline-block;
+    font-family: "Lato";
+    font-size: 20px;
+    margin: 0px auto;
+    position: relative;
+    width: 58%;
+    top: 0px;
 }
 
 #pic1,
 #pic2 {
+    top: 70px;
     position: absolute;
-    height: 30vh;
-    width: 20vw;
-    background-color: grey;
+    height: 250px;
+    width: 450px;
+    background-color: white;
 }
 
 #pic1 {
