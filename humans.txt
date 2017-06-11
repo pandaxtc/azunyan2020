@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    made with <3 by the azusa2020 campaign team
+    @dragxtcon & @kawaiicirno
 
 # THANKS
 
-    <name>
+    jeff
+    bruck
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Github, Stack Overflow, jQuery, materialize

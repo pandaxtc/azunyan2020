@@ -6,20 +6,22 @@
     right: 8%;
     height: 700px;
 }
+
 #rays {
     position: absolute;
-    top: 0px;
+    top: 60px;
     right: 0px;
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
 }
+
 #bannerbg {
     position: absolute;
     display: block;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 100vh;
+    height: 875px;
     background: #FFAEAE;
     box-shadow: 0px 0px 5px 0px #777777;
 }
@@ -27,7 +29,7 @@
 #banner {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 875px;
     top: 0px;
     width: 100%;
     z-index: 2;
