@@ -116,15 +116,16 @@ body {
 
 #footerbg {
     position: absolute;
-    right: 0px;
-    width: 100vw;
-    height: 160px;
+    left: 0px;
+    width: 100%;
+    height: 20vh;
     background-color: #FFA6A0;
     z-index: -1;
 }
 
 #footer {
     position: relative;
+    top: 70px;
 
 }
 
@@ -138,17 +139,16 @@ body {
     font-family: "Roboto Slab", sans-serif;
     display: inline;
     position: relative;
-    top: 45px;
+    top: 0px;
 }
 #support {
     position: relative;
-    top: 50px;
     text-align: center;
     width: 320px;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .12em;
-        font-size: 100%;
+    font-size: 100%;
 }
 input {
     background: transparent;
@@ -192,5 +192,48 @@ button {
     background-color: #FC8BA9;
     color: white;
 }
-
+.lulbox {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    width: 300px;
+    height: 110px;
+}
+.tracelogo {
+    position: relative;
+    display: block;
+    left: 25%;
+    background-color: white;
+    height: 60px;
+    width: 150px;
+}
+.space {
+    position: relative;
+    display: block;
+    top: 15px;
+    width: 300px;
+    display: block;
+    left: 25%.
+    height: 2px;
+    background-color: white;
+    color: white;
+    margin: 0px auto;
+    z-index: 100;
+}
+.terms {
+    position: absolute;
+    bottom: 0px;
+    left: 60%;
+     font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+}
+.policy {
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+}
 
