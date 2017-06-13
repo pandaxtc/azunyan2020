@@ -130,6 +130,7 @@ h1 {
     width: 200px;
 }
 .infotext {
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: .10em;
     font-size: 18px;
@@ -153,6 +154,19 @@ i {
     margin-top: 40px;
     text-align: center;
 }
+.fa-location-arrow {
+    position: absolute;
+    top: 40px;
+}
+.fa-phone {
+    position: absolute;
+    top: 120px;
+}
+.fa-envelope {
+    position: absolute;
+    top: 190px;
+}
+
 .fa-facebook {
     margin-right: 30px;
 }
