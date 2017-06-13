@@ -52,18 +52,21 @@
 
 #banner p {
     position: relative;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
     margin-top: 10px;
-    font-size: 20px;
-    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 #banner .bannerbutton {
     position: relative;
     background: white;
     text-decoration: none;
-    top: 10px;
+    height: inherit;
+    padding: 8px 16px 8px 16px;
     margin: 0px 20px 10px 0px;
     color: #FFAEAE;
-    padding: 6px 14px 7px 14px;
 }

@@ -140,6 +140,7 @@ br {
 }
 
 .infobox h4 {
+    font-family: "Lato";
     display: block;
     font-size: 20px;
     margin: 4px auto;
@@ -178,7 +179,7 @@ br {
 
 p {
     display: inline-block;
-    font-family: "Lato";
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 20px;
     margin: 0px auto;
     position: relative;
