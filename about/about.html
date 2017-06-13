@@ -10,7 +10,7 @@
     <meta http-equiv="author" content="" />
     <!-- cacheing - not important -->
     <meta http-equiv="pragma" content="no-cache" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Lato|Roboto|Roboto Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Lato|Roboto|Roboto Slab|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../styles/aboutstyle.css">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -28,23 +28,13 @@
                     <div class="menubutton">ABOUT</div>
                 </a>
             </li>
-            <li id="issues">
-                <a href="/">
-                    <div class="menubutton">ISSUES</div>
-                </a>
-            </li>
-            <li id="evemts">
-                <a href="/">
-                    <div class="menubutton">EVENTS</div>
-                </a>
-            </li>
             <li id="news">
                 <a href="/">
                     <div class="menubutton">NEWS</div>
                 </a>
             </li>
             <li id="contacts">
-                <a href="/">
+                <a href="/contact/contact.html">
                     <div class="menubutton">CONTACT</div>
                 </a>
             </li>
@@ -93,7 +83,8 @@
             <p>
                 Sed quis vestibulum ex, non dictum metus. Mauris vel nunc nisi. Duis ultrices, ex a consectetur aliquet, urna justo rhoncus purus, in ultricies quam nisl pulvinar turpis. Morbi sed lectus eget urna tristique luctus. Morbi rhoncus vulputate justo, pellentesque pharetra ex vulputate in. Phasellus lacinia, magna tempus aliquam mollis, leo arcu pellentesque neque, quis ornare turpis felis malesuada enim. Pellentesque id mauris a purus volutpat scelerisque non et justo. Nam augue augue, ornare eget urna vel, elementum rhoncus tortor. Nulla eros risus, laoreet ac laoreet eu, lobortis vitae nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris egestas, justo ac egestas luctus, ipsum odio elementum libero, commodo fermentum magna est eu augue. Aenean aliquam neque nec dignissim efficitur.
             </p>
-            <div id="pic1"></div>
+            <div id="pic1">
+            </div>
         </div>
         <div name="mission" id="secondbg">
             <div class="infobox">
@@ -122,13 +113,14 @@
             </div>
         </div>
     </div>
+
     <div id="footerbg">
         <div id="footer">
             <div id="inputwrap">
                 <div id="support">Get updates!</div>
                 <form class="form">
-                    <input type="text" id="email" placeholder="ENTER EMAIL">
-                    <button class="button submit">submit</button>
+                    <input type="text" id="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ENTER EMAIL'" placeholder="ENTER EMAIL">
+                    <button type="button" class="button submit">submit</button>
                 </form>
                 <a class="link" id="terms" href="https://www.niceme.me">
                     Terms & Conditions
@@ -143,8 +135,6 @@
             </div>
         </div>
     </div>
-
-
 
     <script src="/js/scroll.js"></script>
 </body>
