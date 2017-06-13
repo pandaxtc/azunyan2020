@@ -140,4 +140,40 @@ h1 {
     width: 10vw;
     left: 23vw;
 }
-
+#rightbox {
+    padding-top: 50px;
+    position: absolute;
+    display: inline-block;
+    width: 44vw;
+    margin-left:5vw;
+}
+.infotext {
+    text-transform: uppercase;
+    letter-spacing: .10em;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+i {
+    display: inline;
+}
+.space {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: white;
+    color: white;
+    margin-bottom: 20px;
+}
+.bottombar {
+    margin-top: 40px;
+    text-align: center;
+}
+.fa-facebook {
+    margin-right: 30px;
+}
+.fa-twitter {
+    margin-right: 30px;
+}
