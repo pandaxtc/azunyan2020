@@ -112,13 +112,14 @@
             </div>
         </div>
     </div>
+
     <div id="footerbg">
         <div id="footer">
             <div id="inputwrap">
                 <div id="support">Get updates!</div>
                 <form class="form">
-                    <input type="text" id="email" placeholder="ENTER EMAIL">
-                    <button class="button submit">submit</button>
+                    <input type="text" id="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ENTER EMAIL'" placeholder="ENTER EMAIL">
+                    <button type="button" class="button submit">submit</button>
                 </form>
                 <a class="link" id="terms" href="https://www.niceme.me">
                     Terms & Conditions
@@ -133,8 +134,6 @@
             </div>
         </div>
     </div>
-
-
 
     <script src="/js/scroll.js"></script>
 </body>

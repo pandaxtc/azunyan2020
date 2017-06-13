@@ -55,25 +55,48 @@
     <div class="topbg"></div>
     <div class="contentbg"></div>
     <div id="content">
-        <div id="leftbox">
-            <input class="smallbox" type="text" placeholder="Your Name">
-            <input class="smallbox" type="text" placeholder="Email Address">
-            <textarea id="msg" placeholder="MESSAGE"></textarea>
-            <button class="button submit" type="submit">SUBMIT!</button>
-        </div>
         <div id="spacer"></div>
-        <div id = "rightbox">
+        <div id="leftbox">
+            <h4>Contact us!</h4>
+            <input class="smallbox" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" type="text" placeholder="Name">
+            <input class="smallbox" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" type="text" placeholder="Email Address">
+            <textarea id="msg" onfocus="this.placeholder = ''" onblur="this.placeholder = 'MESSAGE'" placeholder="MESSAGE"></textarea>
+            <button class="button submit send" type="submit">SUBMIT</button>
+        </div>
+        <div id="rightbox">
             <i class="fa fa-location-arrow fa-2x" aria-hidden="true"></i>
             <div class="infotext">Azusa Web Corps</div>
             <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-            <div class="infotext">(408)555-1485</div>
+            <div class="infotext">(408) 555-1485</div>
             <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-            <div class="infotext">contact@nakanoazusa.org</div>
-            <div class = "space"></div>
-            <div class = "bottombar">
+            <div class="infotext"><a href="mailto:contact@nakanoasuza.org">contact@nakanoasuza.org</a></div>
+            <div class="space"></div>
+            <div class="bottombar">
                 <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+    <div id="footerbg">
+        <div id="footer">
+            <div id="inputwrap">
+                <div id="support">Get updates!</div>
+                <form class="form">
+                    <input type="text" id="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ENTER EMAIL'" placeholder="ENTER EMAIL">
+                    <button type="button" class="button submit">submit</button>
+                </form>
+                <a class="link" id="terms" href="https://www.niceme.me">
+                    Terms & Conditions
+                </a>
+                <a class="link" id="policy" href="https://www.niceme.me">
+                    Privacy Policy
+                </a>
+            </div>
+
+            <div class="linkbox">
+                <img id="whitelogo" src="/assets/whitelogo.svg">
             </div>
         </div>
     </div>

@@ -185,7 +185,11 @@ input {
 }
 
 input::-webkit-input-placeholder {
-    color: white;
+    color: #E5E5E5;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #E5E5E5;
 }
 
 button {
@@ -236,7 +240,7 @@ button {
     position: absolute;
     right: 11px;
     display: block;
-    top: 10px;
+    top: 15px;
     height: 72px;
 }
 
