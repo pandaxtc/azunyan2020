@@ -14,9 +14,6 @@ body {
     left: auto;
     right: auto;
     margin: auto;
-    !margin-left: 10%;
-    !margin-right: 10%;
-    !margin-top: 0px;
     max-width: 1340px;
     color: white;
 }
@@ -28,7 +25,7 @@ body {
     width: 100%;
     height: 60px;
     top: 0px;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .topbg {
@@ -40,7 +37,7 @@ body {
     height: 60px;
     background: #fff;
     box-shadow: 0px 0px 5px 0px #777777;
-    z-index: 998
+    z-index: 9998;
 }
 
 #logo {
@@ -63,6 +60,7 @@ body {
     overflow: hidden;
     background: #fff;
     text-align: center;
+    font-weight: 300;
 }
 
 #mainmenu li {
@@ -89,19 +87,169 @@ body {
 
 #mainmenu div:hover {
     -webkit-transition: background-color 0.2s;
-    background-color:  #FFC0C0;
+    background-color: #F5F5F5;
 }
 
 #mainmenu #donate {
-    width: 70px;
+    width: 80px;
     margin-left: 20px;
     top: 10px;
     height: 40px;
-    background-color: #FFAEAE;
 }
 
 #mainmenu #donate div {
     color: white;
     line-height: 40px;
     height: 100%;
+    background-color: #FFAEAE;
+}
+
+.button {
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.button:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(0, 0, 0, 0.22);
+}
+
+#footerbg {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 20vh;
+    background-color: #1565c0;
+    z-index: 99;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#footer {
+    position: relative;
+    top: 40px;
+    width: 1040px;
+    height: 100px;
+    margin: 0px auto;
+    z-index: 100;
+}
+
+#infoform {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.form {
+    font-family: "Roboto Slab", sans-serif;
+    display: inline;
+    position: relative;
+    top: 0px;
+}
+
+#support {
+    font-family: "Roboto Slab";
+    position: relative;
+    width: 320px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+input {
+    font-family: "Lato";
+    background: transparent;
+    border: 0;
+    display: inline;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    border: 1px solid #fff;
+    padding: 0 10px 0 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 90px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    -webkit-transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.submit {
+    position: absolute;
+    font-family: "Lato";
+    height: 42px;
+    margin-left: 10px;
+}
+
+.submit:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+#inputwrap {
+    position: absolute;
+    left: 11px;
+    top: 0px;
+    height: 90px;
+}
+
+.linkbox {
+    position: absolute;
+    right: 11px;
+    top: 2px;
+    width: 100px;
+    height: 80px;
+}
+
+#whitelogo {
+    position: absolute;
+    right: 11px;
+    display: block;
+    top: 10px;
+    height: 72px;
+}
+
+.link {
+    font-family: "Roboto Slab";
+    text-decoration: none;
+    font-size: 8px;
+    color: white;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#terms {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+}
+
+#policy {
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
 }

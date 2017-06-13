@@ -1,10 +1,9 @@
-/*FFAEAE*/
+body {
+    background-color: #FFA6A0;
+}
 
-#nyan {
-    position: absolute;
-    bottom: 0px;
-    right: 8%;
-    height: 700px;
+#about {
+    background: #F5F5F5;
 }
 
 #bannerbg {
@@ -13,44 +12,193 @@
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 100vh;
+    height: 484px;
     background: #FFAEAE;
     box-shadow: 0px 0px 5px 0px #777777;
 }
 
-#leftbox,
-#rightbox {
-    display: inline-block top: 0;
-    height: 800px;
-    width: 65%;
-}
-
-#leftbox {
-    background-color: deepskyblue;
-    display: inline-block;
-    position: absolute;
-    left: -20px;
-}
-
-#rightbox {
-    background-color: cadetblue;
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    width: 50%
-}
-
-#boxspacer {
-    background-color: aqua;
-    height: 10000px;
-    z-index: 999999999;
-}
-
-t {
-    color: black;
+#banner {
     position: relative;
-    top: 100px;
-    padding: 20px 20px 20px 20px;
-    font-size: 40px;
-    min-width: 100px;
+    width: 100%;
+    height: 484px;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+#banner .bannertext {
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    bottom: 100px;
+    left: 30px;
+}
+
+#banner h1 {
+    font-family: 'Roboto Slab';
+    margin: 0px 0px 0px 0px;
+    top: 0%;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+h4 {
+    position: relative;
+    font-family: 'Lato';
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+br {
+    display: block;
+    line-height: 0px;
+}
+
+.menubar {
+    position: relative;
+    max-width: 1340px;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+}
+
+.menubg {
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 484px;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px #777777;
+    z-index: 998;
+}
+
+#menu {
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1000;
+}
+
+#menu li {
+    position: relative;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 150px;
+}
+
+#menu a {
+    position: relative;
+    line-height: 60px;
+}
+
+#menu a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu div:hover {
+    -webkit-transition: background-color 0.2s;
+    background-color: #F5F5F5;
+}
+
+.spacer {
+    position: relative;
+    width: 200px;
+    display: block;
+    float: left;
+    height: 2px;
+    background-color: white;
+    color: white;
+    margin: 0px auto;
+}
+
+.infobox {
+    position: relative;
+    width: 1220px;
+    margin: 0px auto;
+    margin-top: 80px;
+    text-align: justify;
+}
+
+.infobox h4 {
+    display: block;
+    font-size: 20px;
+    margin: 4px auto;
+}
+
+#firstbg {
+    position: absolute;
+    background-color: skyblue;
+    top: 544px;
+    left: 0px;
+    height: 740px;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px #777777;
+    z-index 102;
+}
+
+#secondbg {
+    position: absolute;
+    background-color: mediumaquamarine;
+    top: 740px;
+    left: 0px;
+    height: 740px;
+    width: 100%;
+    z-index: 101;
+}
+
+#thirdbg {
+    position: absolute;
+    background-color: pink;
+    top: 1480px;
+    left: 0px;
+    height: 740px;
+    width: 100%;
+    z-index: 101;
+}
+
+p {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 20px;
+    margin: 0px auto;
+    position: relative;
+    width: 58%;
+    top: 0px;
+}
+
+#pic1 {
+    top: 60px;
+    position: absolute;
+    height: 250px;
+    width: 450px;
+    background-color: white;
+    right: 0px;
+}
+
+#footerbg {
+    top: 2765px;
+}
+
+#footer {
+
 }

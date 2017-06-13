@@ -10,9 +10,15 @@
     <meta http-equiv="author" content="" />
     <!-- cacheing - not important -->
     <meta http-equiv="pragma" content="no-cache" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto Slab" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto Slab|Lato" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="styles/indexstyle.css">
+
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -22,7 +28,7 @@
         </a>
         <ul id="mainmenu">
             <li id="about">
-                <a href="/">
+                <a href="/about/about.html">
                     <div class="menubutton">ABOUT</div>
                 </a>
             </li>
@@ -48,7 +54,7 @@
             </li>
             <li id="donate">
                 <a href="/">
-                    <div class="menubutton">DONATE</div>
+                    <div class="button menubutton">DONATE</div>
                 </a>
             </li>
         </ul>
@@ -58,15 +64,41 @@
         <div class="bannertext">
             <h1>It's time for a new America.</h1>
             <p>
-                Together, we can accomplish anything. Join the revolution today. <br>
-                It's time for a new America. A more moe America.
+                Together, we can accomplish anything. Join the revolution today. <br> It's time for a new America. A more moe America.
             </p>
-            <a class="bannerbutton" href="/">ABOUT</a>
-            <a class="bannerbutton" href="/">CONTRIBUTE</a>
+            <a class="button bannerbutton" href="/">ABOUT</a>
+            <a class="button bannerbutton" href="/">CONTRIBUTE</a>
         </div>
         <img id="nyan" src="assets/azusa.png">
     </div>
-    <div id="bannerbg"></div>
+    <div id="bannerbg">
+        <img id="rays" src="assets/rays.png">
+    </div>
+
+    <div id="footerbg">
+        <div id="footer">
+            <div id="inputwrap">
+                <div id="support">Get updates!</div>
+                <form class="form">
+                    <input type="text" id="email" placeholder="ENTER EMAIL">
+                    <button class="button submit">submit</button>
+                </form>
+                <a class="link" id="terms" href="https://www.niceme.me">
+                    Terms & Conditions
+                </a>
+                <a class="link" id="policy" href="https://www.niceme.me">
+                    Privacy Policy
+                </a>
+            </div>
+
+            <div class="linkbox">
+                <img id="whitelogo" src="/assets/whitelogo.svg">
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>
