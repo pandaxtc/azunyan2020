@@ -1,6 +1,7 @@
 body {
     background-color: #FFA6A0;
 }
+
 #about {
     background: #F5F5F5;
 }
@@ -119,17 +120,6 @@ br {
     background-color: #F5F5F5;
 }
 
-#firstbg {
-    position: absolute;
-    background-color: skyblue;
-    top: 544px;
-    left: 0px;
-    height: 740px;
-    width: 100%;
-    box-shadow: 0px 0px 5px 0px #777777;\
-    z-index 102;
-}
-
 .spacer {
     position: relative;
     width: 200px;
@@ -155,6 +145,17 @@ br {
     margin: 4px auto;
 }
 
+#firstbg {
+    position: absolute;
+    background-color: skyblue;
+    top: 544px;
+    left: 0px;
+    height: 740px;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px #777777;
+    z-index 102;
+}
+
 #secondbg {
     position: absolute;
     background-color: mediumaquamarine;
@@ -165,9 +166,14 @@ br {
     z-index: 101;
 }
 
-.secondbox {
-    position: relative;
-    top: 110vh;
+#thirdbg {
+    position: absolute;
+    background-color: pink;
+    top: 1480px;
+    left: 0px;
+    height: 740px;
+    width: 100%;
+    z-index: 101;
 }
 
 p {
@@ -180,142 +186,19 @@ p {
     top: 0px;
 }
 
-#pic1,
-#pic2 {
+#pic1 {
     top: 60px;
     position: absolute;
     height: 250px;
     width: 450px;
     background-color: white;
-}
-
-#pic1 {
     right: 0px;
 }
 
-
-
 #footerbg {
-    position: absolute;
-    top: 2024px;
-    left: 0px;
-    width: 100%;
-    height: 20vh;
-    background-color: #FFA6A0;
-    z-index: ;
+    top: 2765px;
 }
 
 #footer {
-    position: relative;
-    top: 1544px;
 
 }
-
-#infoform {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
-
-.form {
-    font-family: "Roboto Slab", sans-serif;
-    display: inline;
-    position: relative;
-    top: px;
-}
-#support {
-    position: relative;
-    text-align: center;
-    width: 320px;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: .12em;
-    font-size: 100%;
-}
-input {
-    background: transparent;
-    border: 0;
-    display: inline;
-    font-size: 100%;
-    margin: 0;
-    outline: 0;
-    padding: 0;
-    vertical-align: baseline;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 0 10px 0 10px;
-    height: 40px;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: .12em;
-}
-button {
-    background: transparent; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: .12em;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.3s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-.submit {
-    background-color: white;
-    color: black;
-    border: 2px solid #FC8BA9;
-}
-
-.submit:hover {
-    background-color: #FC8BA9;
-    color: white;
-}
-.lulbox {
-    position: absolute;
-    right: 0px;
-    top: 15px;
-    width: 300px;
-    height: 110px;
-}
-.tracelogo {
-    position: relative;
-    display: block;
-    left: 25%;
-    background-color: white;
-    height: 60px;
-    width: 150px;
-}
-.space {
-    position: relative;
-    display: block;
-    top: 15px;
-    width: 300px;
-    display: block;
-    left: 25%.
-    height: 2px;
-    background-color: white;
-    color: white;
-    margin: 0px auto;
-    z-index: 100;
-}
-.terms {
-    position: absolute;
-    bottom: 0px;
-    left: 60%;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: .12em;
-}
-.policy {
-    position: absolute;
-    bottom: 0px;
-    left: 10%;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: .12em;
-}
-
